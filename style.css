@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: #282847;
-    color: #282847;
+    background:linear-gradient(to right, #073720, #102358);
+    color: #030342;
 }
 main{
     display: flex;
@@ -52,7 +52,7 @@ input[type="checkbox"]{
     left: 0;
     right: 0;
     border-radius: 3px;
-    background: linear-gradient(to right, #ad25fc 25%,#518cd4 75%);
+    background: linear-gradient(to right, #286483 25%,#8ad6aa 75%);
 }
 .password-wrap input{
     flex: 1 1 0%;
@@ -65,7 +65,7 @@ input[type="checkbox"]{
 }
 .password-wrap button{
     cursor: pointer;
-    background: linear-gradient(to bottom, #ad25fc 0%,#518cd4 75%);
+    background: linear-gradient(to bottom, #286483 0%,#8ad6aa 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -89,7 +89,7 @@ button[type="submit"]{
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    background: linear-gradient(to right,  #ad25fc 25%,#518cd4 50%);
+    background: linear-gradient(to right,  #286483 25%,#8ad6aa 50%);
     background-position: 25%;
     background-size: 200%;
     border-radius: 0.25rem;
